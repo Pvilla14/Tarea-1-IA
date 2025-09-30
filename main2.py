@@ -6,19 +6,19 @@ from Astar import Astar_lab
 from gen import gen_lab
 
 # Algoritmos disponibles
-algorithms = ["bfs"]
+algorithms = ["bfs", "gen", "Astr"]
 
 # Tamaños de laberinto a probar
-sizes = [50, 100]
+sizes = [5, 10, 50, 100]
 
 # Cantidades de salidas a probar
-exits = [6, 10]
+exits = [4, 6, 10]
 
 # Probabilidades de que una casilla sea pared (más chico = más paredes)
 bush_probs = [2, 3, 5]
 
 # Iteraciones por configuración
-num_iter = 50
+num_iter = 200
 
 # Archivos de salida
 output_files = {
